@@ -1,0 +1,15 @@
+# Temporary & Editor backup files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# History or sensitive session logs
+.bash_history
+.bash_sessions/
+.lesshst
+
+# OS/Desktop generated cache
+.cache/
+.directory
