@@ -1,35 +1,43 @@
 # Dotfiles
 
-Personal dotfiles for a lightweight Linux environment.
+My personal dotfiles for a minimal and lightweight Linux environment.
 
-## Overview
+## System Details
 
-This repository contains my personal system configuration files for a fast and minimal workflow.
-
-* OS: Linux Mint
-* Window Manager: Openbox (openboxWM)
-* Panel: xfce4-panel
+* OS: Linux Mint 22.3 (zena)
+* Window Manager: Openbox(openbox-wm)
+* Status Bar: Polybar
 * Wallpaper Setter: feh
 
-## Repository Structure
+``` File Structure
+├── .bashrc
+├── .xinitrc
+├── README.md
+└── config/
+├── openbox/
+└── polybar/
+```
+## Installation
 
-* bashrc - Shell configuration, aliases, and environment variables.
-* xinitrc - Startup script for X session, Openbox, and feh wallpaper setup.
-* README.md - Documentation for this repository.
-* .gitignore - List of files ignored by Git.
+1. Clone the repository into your home directory:
 
-## Setup Instructions
+```bash
+git clone [https://github.com/codewiths-sudo/dotfiles.git](https://github.com/codewiths-sudo/dotfiles.git)
+```
 
-1. Clone the repository:
-   git clone https://github.com/your-username/dotfiles.git
+## Create symlinks for the main dotfiles:
 
-2. Create symlinks to your home directory:
-   ln -s ~/dotfiles/bashrc ~/.bashrc
-   ln -s ~/dotfiles/xinitrc ~/.xinitrc
+```ln -sf ~/dotfiles/.bashrc ~/.bashrc
+   ln -sf ~/dotfiles/.xinitrc ~/.xinitrc
+```
 
-3. Reload bash configuration:
-   source ~/.bashrc
+### .xinitrc starts Openbox and essential background processes.
+
+### Polybar and feh are launched along with the Openbox session.
+
 
 ## License
 
-This project is free to use and modify for personal setups.
+This repository is unlicensed - see the [LICENSE](LICENSE) file for details.
+
+---
