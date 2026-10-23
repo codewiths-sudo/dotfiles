@@ -1,0 +1,4 @@
+feh --bg-scale usr/share/backgrounds/linuxmint/sele_ring_center.jpg
+
+xfsettingsd &
+
