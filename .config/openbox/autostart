@@ -2,12 +2,6 @@ export XDG_CURRENT_DESKTOP="Openbox"
 export DESKTOP_SESSION="openbox"
 export XDG_CURRENT=0
 
-killall -q xfce4-power-manager
-killall -q xfsettingsd
-killall -q xfce4-notifyd
-killall -q xfce4-panel
-
-
 ~/.config/polybar/launch.sh &
 
 feh --bg-fill /usr/share/backgrounds/linuxmint-wallpapers/jpanchal_cpu.jpg
