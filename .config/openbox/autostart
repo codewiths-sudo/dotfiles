@@ -4,7 +4,7 @@ export XDG_CURRENT=0
 
 ~/.config/polybar/launch.sh &
 
-feh --bg-fill /usr/share/backgrounds/linuxmint-wallpapers/jpanchal_cpu.jpg
+feh --bg-fill /home/shayan/Downloads/black.jpg
 
 if [-z "$DBUS_SESION_BUS_ADDRESS"]; then
     eval $(dbus-launch --sh-syntax --exit-with-session)

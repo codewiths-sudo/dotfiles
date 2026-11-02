@@ -120,7 +120,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>2</number>
     <firstdesk>1</firstdesk>
     <names>
       <!-- set names up here if you want to, like this:
@@ -180,6 +180,16 @@
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
 <!-- Open Windows / Task Switcher (Alt + Tab দিয়ে) -->
+    <keybind key="Print">
+        <action name="Execute">
+            <command>scrot ~/Pictures/screenshot_%Y-%m-%d_%H-%M-%S.png</command>
+        </action>
+    </keybind>
+    <keybind key="C-T">
+        <action name="Execute">
+             <command>st</command>
+        </action>
+    </keybind>
     <keybind key="A-Tab">
         <action name="Execute">
              <command>rofi -show window</command>
