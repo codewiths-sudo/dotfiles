@@ -180,6 +180,11 @@
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
 <!-- Open Windows / Task Switcher (Alt + Tab দিয়ে) -->
+    <keybind key="C-F">
+        <action name="Execute">
+            <command>xfe</command>
+        </action>
+     </keybind>
     <keybind key="W-a">
         <action name="Execute">
             <command>st -e alsamixer</command>
