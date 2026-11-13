@@ -125,4 +125,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias ls='ls -a --color=auto'
 alias ll='ls -la'
+alias mc='~/jdk8u504-b01-jre/bin/java -jar ~/.tlauncher/starter/original-TLauncher-2.9378.jar'
 export NO_AT_BRIDGE=1
